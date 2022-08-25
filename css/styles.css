@@ -114,8 +114,6 @@ img {
 
   display: flex;
   flex-direction: column;
-
-  width: 48px;
 }
 .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -464,6 +462,7 @@ img {
 }
 .subscription-input {
   margin-right: 12px;
+  padding-left: 16px;
   width: 358px;
   height: 50px;
 
@@ -477,6 +476,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-label {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   left: 16px;
   top: 50%;
@@ -498,6 +498,10 @@ img {
 .subscription-icon {
   fill: var(--secondary-icon-color);
 }
+.subscription-input:focus + .subscription-label {
+  color: transparent;
+}
+
 /* Різне*/
 
 .link:hover,

@@ -192,11 +192,6 @@ img {
   width: 217px;
 }
 
-/*.hero-button:hover,
-.hero-button:focus {
-  color: var(--titel-text-color);
-}*/
-
 /*Переваги компанії*/
 
 .visually-hidden {
@@ -276,20 +271,7 @@ img {
 .activity-item {
   position: relative;
 }
-/*
-.label .title-third {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 
-  margin-bottom: 0;
-  padding: 27px 107px;
-
-  width: 370px;
-  height: 70px;
-  color: var(--secondary-text-color);
-  background: rgba(47, 48, 58, 0.8);
-}*/
 .label {
   position: absolute;
   bottom: 0;
